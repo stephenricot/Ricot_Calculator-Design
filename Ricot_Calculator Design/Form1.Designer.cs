@@ -37,7 +37,7 @@ namespace Ricot_Calculator_Design
             this.btnSix = new System.Windows.Forms.Button();
             this.btnOne = new System.Windows.Forms.Button();
             this.btnTwo = new System.Windows.Forms.Button();
-            this.btnComma = new System.Windows.Forms.Button();
+            this.btnDot = new System.Windows.Forms.Button();
             this.btnThree = new System.Windows.Forms.Button();
             this.btnZero = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
@@ -60,6 +60,7 @@ namespace Ricot_Calculator_Design
             this.btnSeven.TabIndex = 0;
             this.btnSeven.Text = "7";
             this.btnSeven.UseVisualStyleBackColor = false;
+            this.btnSeven.Click += new System.EventHandler(this.button_click);
             // 
             // btnEight
             // 
@@ -71,6 +72,7 @@ namespace Ricot_Calculator_Design
             this.btnEight.TabIndex = 1;
             this.btnEight.Text = "8";
             this.btnEight.UseVisualStyleBackColor = false;
+            this.btnEight.Click += new System.EventHandler(this.button_click);
             // 
             // btnFour
             // 
@@ -82,6 +84,7 @@ namespace Ricot_Calculator_Design
             this.btnFour.TabIndex = 2;
             this.btnFour.Text = "4";
             this.btnFour.UseVisualStyleBackColor = false;
+            this.btnFour.Click += new System.EventHandler(this.button_click);
             // 
             // btnNine
             // 
@@ -93,6 +96,7 @@ namespace Ricot_Calculator_Design
             this.btnNine.TabIndex = 3;
             this.btnNine.Text = "9";
             this.btnNine.UseVisualStyleBackColor = false;
+            this.btnNine.Click += new System.EventHandler(this.button_click);
             // 
             // btnFive
             // 
@@ -104,6 +108,7 @@ namespace Ricot_Calculator_Design
             this.btnFive.TabIndex = 4;
             this.btnFive.Text = "5";
             this.btnFive.UseVisualStyleBackColor = false;
+            this.btnFive.Click += new System.EventHandler(this.button_click);
             // 
             // btnSix
             // 
@@ -115,6 +120,7 @@ namespace Ricot_Calculator_Design
             this.btnSix.TabIndex = 5;
             this.btnSix.Text = "6";
             this.btnSix.UseVisualStyleBackColor = false;
+            this.btnSix.Click += new System.EventHandler(this.button_click);
             // 
             // btnOne
             // 
@@ -126,6 +132,7 @@ namespace Ricot_Calculator_Design
             this.btnOne.TabIndex = 6;
             this.btnOne.Text = "1";
             this.btnOne.UseVisualStyleBackColor = false;
+            this.btnOne.Click += new System.EventHandler(this.button_click);
             // 
             // btnTwo
             // 
@@ -137,17 +144,19 @@ namespace Ricot_Calculator_Design
             this.btnTwo.TabIndex = 7;
             this.btnTwo.Text = "2";
             this.btnTwo.UseVisualStyleBackColor = false;
+            this.btnTwo.Click += new System.EventHandler(this.button_click);
             // 
-            // btnComma
+            // btnDot
             // 
-            this.btnComma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnComma.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnComma.Location = new System.Drawing.Point(116, 241);
-            this.btnComma.Name = "btnComma";
-            this.btnComma.Size = new System.Drawing.Size(45, 45);
-            this.btnComma.TabIndex = 8;
-            this.btnComma.Text = ",";
-            this.btnComma.UseVisualStyleBackColor = false;
+            this.btnDot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnDot.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDot.Location = new System.Drawing.Point(116, 241);
+            this.btnDot.Name = "btnDot";
+            this.btnDot.Size = new System.Drawing.Size(45, 45);
+            this.btnDot.TabIndex = 8;
+            this.btnDot.Text = ".";
+            this.btnDot.UseVisualStyleBackColor = false;
+            this.btnDot.Click += new System.EventHandler(this.button_click);
             // 
             // btnThree
             // 
@@ -159,6 +168,7 @@ namespace Ricot_Calculator_Design
             this.btnThree.TabIndex = 9;
             this.btnThree.Text = "3";
             this.btnThree.UseVisualStyleBackColor = false;
+            this.btnThree.Click += new System.EventHandler(this.button_click);
             // 
             // btnZero
             // 
@@ -170,6 +180,7 @@ namespace Ricot_Calculator_Design
             this.btnZero.TabIndex = 10;
             this.btnZero.Text = "0";
             this.btnZero.UseVisualStyleBackColor = false;
+            this.btnZero.Click += new System.EventHandler(this.button_click);
             // 
             // btnMinus
             // 
@@ -275,7 +286,7 @@ namespace Ricot_Calculator_Design
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnZero);
             this.Controls.Add(this.btnThree);
-            this.Controls.Add(this.btnComma);
+            this.Controls.Add(this.btnDot);
             this.Controls.Add(this.btnTwo);
             this.Controls.Add(this.btnOne);
             this.Controls.Add(this.btnSix);
@@ -303,7 +314,7 @@ namespace Ricot_Calculator_Design
         private System.Windows.Forms.Button btnSix;
         private System.Windows.Forms.Button btnOne;
         private System.Windows.Forms.Button btnTwo;
-        private System.Windows.Forms.Button btnComma;
+        private System.Windows.Forms.Button btnDot;
         private System.Windows.Forms.Button btnThree;
         private System.Windows.Forms.Button btnZero;
         private System.Windows.Forms.Button btnMinus;

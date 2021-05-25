@@ -21,5 +21,17 @@ namespace Ricot_Calculator_Design
         {
 
         }
+
+        private void button_click(object sender, EventArgs e)
+        {
+            if(output.Text == "0")
+            {
+                output.Clear();
+            }
+
+            Button button = (Button)sender;
+            output.Text = output.Text + button.Text;
+
+        }
     }
 }
