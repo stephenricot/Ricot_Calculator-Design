@@ -283,7 +283,7 @@ namespace Ricot_Calculator_Design
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(309, 304);
+            this.ClientSize = new System.Drawing.Size(311, 304);
             this.Controls.Add(this.output);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnEqual);
