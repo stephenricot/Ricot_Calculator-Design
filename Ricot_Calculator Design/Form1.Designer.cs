@@ -55,7 +55,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnSeven.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnSeven.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeven.Location = new System.Drawing.Point(14, 88);
+            this.btnSeven.Location = new System.Drawing.Point(31, 88);
             this.btnSeven.Name = "btnSeven";
             this.btnSeven.Size = new System.Drawing.Size(45, 45);
             this.btnSeven.TabIndex = 0;
@@ -67,7 +67,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnEight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnEight.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEight.Location = new System.Drawing.Point(65, 88);
+            this.btnEight.Location = new System.Drawing.Point(82, 88);
             this.btnEight.Name = "btnEight";
             this.btnEight.Size = new System.Drawing.Size(45, 45);
             this.btnEight.TabIndex = 1;
@@ -79,7 +79,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnFour.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFour.Location = new System.Drawing.Point(14, 139);
+            this.btnFour.Location = new System.Drawing.Point(31, 139);
             this.btnFour.Name = "btnFour";
             this.btnFour.Size = new System.Drawing.Size(45, 45);
             this.btnFour.TabIndex = 2;
@@ -91,7 +91,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnNine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnNine.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNine.Location = new System.Drawing.Point(116, 88);
+            this.btnNine.Location = new System.Drawing.Point(133, 88);
             this.btnNine.Name = "btnNine";
             this.btnNine.Size = new System.Drawing.Size(45, 45);
             this.btnNine.TabIndex = 3;
@@ -103,7 +103,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnFive.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFive.Location = new System.Drawing.Point(65, 139);
+            this.btnFive.Location = new System.Drawing.Point(82, 139);
             this.btnFive.Name = "btnFive";
             this.btnFive.Size = new System.Drawing.Size(45, 45);
             this.btnFive.TabIndex = 4;
@@ -115,7 +115,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnSix.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSix.Location = new System.Drawing.Point(116, 139);
+            this.btnSix.Location = new System.Drawing.Point(133, 139);
             this.btnSix.Name = "btnSix";
             this.btnSix.Size = new System.Drawing.Size(45, 45);
             this.btnSix.TabIndex = 5;
@@ -127,7 +127,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOne.Location = new System.Drawing.Point(14, 190);
+            this.btnOne.Location = new System.Drawing.Point(31, 190);
             this.btnOne.Name = "btnOne";
             this.btnOne.Size = new System.Drawing.Size(45, 45);
             this.btnOne.TabIndex = 6;
@@ -139,7 +139,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTwo.Location = new System.Drawing.Point(65, 190);
+            this.btnTwo.Location = new System.Drawing.Point(82, 190);
             this.btnTwo.Name = "btnTwo";
             this.btnTwo.Size = new System.Drawing.Size(45, 45);
             this.btnTwo.TabIndex = 7;
@@ -151,7 +151,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnComma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnComma.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnComma.Location = new System.Drawing.Point(116, 241);
+            this.btnComma.Location = new System.Drawing.Point(133, 241);
             this.btnComma.Name = "btnComma";
             this.btnComma.Size = new System.Drawing.Size(45, 45);
             this.btnComma.TabIndex = 8;
@@ -163,7 +163,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnThree.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThree.Location = new System.Drawing.Point(116, 190);
+            this.btnThree.Location = new System.Drawing.Point(133, 190);
             this.btnThree.Name = "btnThree";
             this.btnThree.Size = new System.Drawing.Size(45, 45);
             this.btnThree.TabIndex = 9;
@@ -175,7 +175,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnZero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnZero.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnZero.Location = new System.Drawing.Point(14, 241);
+            this.btnZero.Location = new System.Drawing.Point(31, 241);
             this.btnZero.Name = "btnZero";
             this.btnZero.Size = new System.Drawing.Size(96, 45);
             this.btnZero.TabIndex = 10;
@@ -187,7 +187,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnMinus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMinus.Location = new System.Drawing.Point(167, 190);
+            this.btnMinus.Location = new System.Drawing.Point(184, 190);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(45, 45);
             this.btnMinus.TabIndex = 11;
@@ -199,7 +199,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnClearAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnClearAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClearAll.Location = new System.Drawing.Point(218, 139);
+            this.btnClearAll.Location = new System.Drawing.Point(235, 139);
             this.btnClearAll.Name = "btnClearAll";
             this.btnClearAll.Size = new System.Drawing.Size(45, 45);
             this.btnClearAll.TabIndex = 12;
@@ -211,7 +211,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnMultiply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnMultiply.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMultiply.Location = new System.Drawing.Point(167, 139);
+            this.btnMultiply.Location = new System.Drawing.Point(184, 139);
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.Size = new System.Drawing.Size(45, 45);
             this.btnMultiply.TabIndex = 13;
@@ -223,7 +223,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(218, 88);
+            this.btnClear.Location = new System.Drawing.Point(235, 88);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(45, 45);
             this.btnClear.TabIndex = 14;
@@ -236,7 +236,7 @@ namespace Ricot_Calculator_Design
             this.btnDivision.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDivision.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnDivision.Location = new System.Drawing.Point(167, 88);
+            this.btnDivision.Location = new System.Drawing.Point(184, 88);
             this.btnDivision.Name = "btnDivision";
             this.btnDivision.Size = new System.Drawing.Size(45, 45);
             this.btnDivision.TabIndex = 15;
@@ -248,7 +248,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnEqual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnEqual.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEqual.Location = new System.Drawing.Point(218, 190);
+            this.btnEqual.Location = new System.Drawing.Point(235, 190);
             this.btnEqual.Name = "btnEqual";
             this.btnEqual.Size = new System.Drawing.Size(45, 96);
             this.btnEqual.TabIndex = 16;
@@ -260,7 +260,7 @@ namespace Ricot_Calculator_Design
             // 
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(167, 241);
+            this.btnAdd.Location = new System.Drawing.Point(184, 241);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(45, 45);
             this.btnAdd.TabIndex = 17;
@@ -271,7 +271,7 @@ namespace Ricot_Calculator_Design
             // output
             // 
             this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.output.Location = new System.Drawing.Point(14, 12);
+            this.output.Location = new System.Drawing.Point(31, 12);
             this.output.Name = "output";
             this.output.Size = new System.Drawing.Size(249, 53);
             this.output.TabIndex = 18;
@@ -283,7 +283,7 @@ namespace Ricot_Calculator_Design
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(281, 304);
+            this.ClientSize = new System.Drawing.Size(309, 304);
             this.Controls.Add(this.output);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnEqual);
