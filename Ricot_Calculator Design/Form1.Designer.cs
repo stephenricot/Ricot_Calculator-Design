@@ -29,6 +29,7 @@ namespace Ricot_Calculator_Design
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnSeven = new System.Windows.Forms.Button();
             this.btnEight = new System.Windows.Forms.Button();
             this.btnFour = new System.Windows.Forms.Button();
@@ -302,6 +303,7 @@ namespace Ricot_Calculator_Design
             this.Controls.Add(this.btnFour);
             this.Controls.Add(this.btnEight);
             this.Controls.Add(this.btnSeven);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
