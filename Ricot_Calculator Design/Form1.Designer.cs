@@ -198,12 +198,12 @@ namespace Ricot_Calculator_Design
             // btnClearAll
             // 
             this.btnClearAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnClearAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClearAll.Font = new System.Drawing.Font("Wingdings", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.btnClearAll.Location = new System.Drawing.Point(235, 139);
             this.btnClearAll.Name = "btnClearAll";
             this.btnClearAll.Size = new System.Drawing.Size(54, 45);
             this.btnClearAll.TabIndex = 12;
-            this.btnClearAll.Text = "C";
+            this.btnClearAll.Text = "";
             this.btnClearAll.UseVisualStyleBackColor = false;
             this.btnClearAll.Click += new System.EventHandler(this.c_pres);
             // 
