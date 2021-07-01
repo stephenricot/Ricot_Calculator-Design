@@ -75,8 +75,13 @@ namespace Ricot_Calculator_Design
 
         private void c_pres(object sender, EventArgs e)
         {
-            output.Clear();
-            val = 0;
+            if (output.Text.Length > 0)
+            {
+                output.Text = output.Text.Remove(output.Text.Length - 1, 1);
+
+                if (output.Text == "")
+                    output.Text = "0";
+            }
         }
     }
 }
