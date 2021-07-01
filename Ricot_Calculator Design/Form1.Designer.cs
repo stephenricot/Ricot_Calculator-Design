@@ -38,7 +38,7 @@ namespace Ricot_Calculator_Design
             this.btnSix = new System.Windows.Forms.Button();
             this.btnOne = new System.Windows.Forms.Button();
             this.btnTwo = new System.Windows.Forms.Button();
-            this.btnComma = new System.Windows.Forms.Button();
+            this.btnDecim = new System.Windows.Forms.Button();
             this.btnThree = new System.Windows.Forms.Button();
             this.btnZero = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
@@ -147,17 +147,17 @@ namespace Ricot_Calculator_Design
             this.btnTwo.UseVisualStyleBackColor = false;
             this.btnTwo.Click += new System.EventHandler(this.button_click);
             // 
-            // btnComma
+            // btnDecim
             // 
-            this.btnComma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnComma.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnComma.Location = new System.Drawing.Point(133, 241);
-            this.btnComma.Name = "btnComma";
-            this.btnComma.Size = new System.Drawing.Size(45, 45);
-            this.btnComma.TabIndex = 8;
-            this.btnComma.Text = ",";
-            this.btnComma.UseVisualStyleBackColor = false;
-            this.btnComma.Click += new System.EventHandler(this.button_click);
+            this.btnDecim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnDecim.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDecim.Location = new System.Drawing.Point(133, 241);
+            this.btnDecim.Name = "btnDecim";
+            this.btnDecim.Size = new System.Drawing.Size(45, 45);
+            this.btnDecim.TabIndex = 8;
+            this.btnDecim.Text = ".";
+            this.btnDecim.UseVisualStyleBackColor = false;
+            this.btnDecim.Click += new System.EventHandler(this.button_click);
             // 
             // btnThree
             // 
@@ -201,7 +201,7 @@ namespace Ricot_Calculator_Design
             this.btnClearAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearAll.Location = new System.Drawing.Point(235, 139);
             this.btnClearAll.Name = "btnClearAll";
-            this.btnClearAll.Size = new System.Drawing.Size(45, 45);
+            this.btnClearAll.Size = new System.Drawing.Size(54, 45);
             this.btnClearAll.TabIndex = 12;
             this.btnClearAll.Text = "C";
             this.btnClearAll.UseVisualStyleBackColor = false;
@@ -225,7 +225,7 @@ namespace Ricot_Calculator_Design
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(235, 88);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(45, 45);
+            this.btnClear.Size = new System.Drawing.Size(54, 45);
             this.btnClear.TabIndex = 14;
             this.btnClear.Text = "CE";
             this.btnClear.UseVisualStyleBackColor = false;
@@ -250,7 +250,7 @@ namespace Ricot_Calculator_Design
             this.btnEqual.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEqual.Location = new System.Drawing.Point(235, 190);
             this.btnEqual.Name = "btnEqual";
-            this.btnEqual.Size = new System.Drawing.Size(45, 96);
+            this.btnEqual.Size = new System.Drawing.Size(54, 96);
             this.btnEqual.TabIndex = 16;
             this.btnEqual.Text = "=";
             this.btnEqual.UseVisualStyleBackColor = false;
@@ -273,7 +273,7 @@ namespace Ricot_Calculator_Design
             this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.output.Location = new System.Drawing.Point(31, 12);
             this.output.Name = "output";
-            this.output.Size = new System.Drawing.Size(249, 53);
+            this.output.Size = new System.Drawing.Size(258, 53);
             this.output.TabIndex = 18;
             this.output.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.output.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -294,7 +294,7 @@ namespace Ricot_Calculator_Design
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnZero);
             this.Controls.Add(this.btnThree);
-            this.Controls.Add(this.btnComma);
+            this.Controls.Add(this.btnDecim);
             this.Controls.Add(this.btnTwo);
             this.Controls.Add(this.btnOne);
             this.Controls.Add(this.btnSix);
@@ -323,7 +323,7 @@ namespace Ricot_Calculator_Design
         private System.Windows.Forms.Button btnSix;
         private System.Windows.Forms.Button btnOne;
         private System.Windows.Forms.Button btnTwo;
-        private System.Windows.Forms.Button btnComma;
+        private System.Windows.Forms.Button btnDecim;
         private System.Windows.Forms.Button btnThree;
         private System.Windows.Forms.Button btnZero;
         private System.Windows.Forms.Button btnMinus;

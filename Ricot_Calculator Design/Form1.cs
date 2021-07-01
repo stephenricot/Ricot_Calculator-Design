@@ -12,9 +12,7 @@ namespace Ricot_Calculator_Design
 {
     public partial class Form1 : Form
     {
-        Double val = 0;
-        String text = "";
-        bool oper_press = false;
+        OperatorClass calc = new OperatorClass();
 
         public Form1()
         {
@@ -28,14 +26,14 @@ namespace Ricot_Calculator_Design
 
         private void button_click(object sender, EventArgs e)
         {
-            if((output.Text == "0")||(oper_press))
+            if((output.Text == "0")||(calc.Oper_press))
             {
                 output.Clear();
             }
 
             Button button = (Button)sender;
             output.Text = output.Text + button.Text;
-            oper_press = false;
+            calc.Oper_press = false;
         }
 
         private void button_clear(object sender, EventArgs e)
@@ -46,37 +44,42 @@ namespace Ricot_Calculator_Design
         private void op_pres(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            text = button.Text;
-            val = Double.Parse(output.Text);
-            oper_press = true;
+            calc.Text = button.Text;
+            calc.Val = Double.Parse(output.Text);
+            calc.Oper_press = true;
         }
 
         private void op_res(object sender, EventArgs e)
         {
-            switch (text)
+            calc.Calc2 = output.Text;
+            switch (calc.Text)
             {
                 case "+":
-                    output.Text = (val + Double.Parse(output.Text)).ToString();
+                    calc.Add();
+                    output.Text = calc.Calc2;
                     break;
                 case "-":
-                    output.Text = (val - Double.Parse(output.Text)).ToString();
+                    calc.Subtract();
+                    output.Text = calc.Calc2;
                     break;
                 case "/":
-                    output.Text = (val / Double.Parse(output.Text)).ToString();
+                    calc.Division();
+                    output.Text = calc.Calc2;
                     break;
                 case "*":
-                    output.Text = (val * Double.Parse(output.Text)).ToString();
+                    calc.Multiply();
+                    output.Text = calc.Calc2;
                     break;
                 default:
                     break;
             }
-            oper_press = false;
+            calc.Oper_press = false;
         }
 
         private void c_pres(object sender, EventArgs e)
         {
             output.Clear();
-            val = 0;
+            calc.Val = 0;
         }
     }
 }
