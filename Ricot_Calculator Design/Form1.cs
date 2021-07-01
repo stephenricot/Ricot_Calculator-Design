@@ -21,7 +21,6 @@ namespace Ricot_Calculator_Design
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void button_click(object sender, EventArgs e)
